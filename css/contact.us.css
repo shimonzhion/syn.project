@@ -1,0 +1,53 @@
+        @media screen and (max-width: 600px) {
+            body {
+                /* background-image: url("/img/222.jpg");
+        background-size: cover;
+        background-repeat: no-repeat; */
+                background-color: #ffc107b0;
+            }
+            a {
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+            }
+            .navbar {
+                display: none;
+            }
+            .img-phone {
+                display: none;
+            }
+            .footer {
+                position: fixed;
+                bottom: 0;
+                width: 100vw;
+            }
+        }
+        
+        @media screen and (min-width: 600px) {
+            body {
+                /* background-image: url("/img/pexels-photo-2078071.webp");
+        background-size: cover;
+        background-repeat: no-repeat; */
+                background-color: #6b540fb0;
+            }
+            a {
+                text-decoration: none;
+                color: black;
+            }
+            a:hover {
+                color: white
+            }
+            #navbar-m {
+                display: none;
+            }
+            .form-group {
+                width: 50%;
+            }
+            svg:hover {
+                transition: all 0.3s;
+                width: 30px;
+                height: 30px;
+            }
+            .footer {
+                bottom: 0;
+            }
+        }

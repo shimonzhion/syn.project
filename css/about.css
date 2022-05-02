@@ -1,0 +1,63 @@
+@media screen and (max-width: 600px) {
+    body {
+        background-image: url("/img/222.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+    .navbar {
+        display: none;
+    }
+    .container {
+        width: 60%;
+    }
+    .footer {
+        position: fixed;
+        bottom: 0;
+    }
+    #img-logo {
+        width: 30vw;
+    }
+    .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        background-image: url("/img/pexels-sebastian-ervi-1763075.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    a:hover {
+        color: white
+    }
+    #navbar-m {
+        display: none;
+    }
+    .container {
+        width: 60%;
+    }
+    svg:hover {
+        transition: all 0.3s;
+        width: 30px;
+        height: 30px;
+    }
+    .footer {
+        bottom: 0;
+        width: 100vw;
+    }
+    #img-logo {
+        width: 30vw;
+    }
+}

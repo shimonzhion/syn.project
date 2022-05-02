@@ -1,0 +1,117 @@
+@media screen and (min-width: 600px) {
+    /* width: 100vw; */
+    /* height: 100vh; */
+    /* #img45{width: 100vw;} */
+    body {
+        background-image: url(/img/pexels-photo-1283219.jpeg);
+        background-attachment: fixed;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    a:hover {
+        color: white;
+    }
+    #navbar-m {
+        display: none;
+    }
+    #main {
+        display: flex;
+        grid-area: main;
+        justify-content: center;
+    }
+    .row {
+        flex-wrap: wrap;
+    }
+    .container {
+        display: flex;
+        justify-content: space-around;
+    }
+    .city {
+        display: flex;
+        justify-content: center;
+        font-size: xx-large;
+        font-weight: bolder;
+        text-shadow: 10px 10px 5px black;
+            }
+    .music-name {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+    .img-main {
+        display: flex;
+        width: 25vw;
+        height: 20vh;
+        justify-content: center;
+    }
+    .card {
+        width: 15vw;
+        display: flex;
+    }
+    .card-img-top {
+        height: 30vh;
+    }
+    svg:hover {
+        transition: all 0.3s;
+        width: 30px;
+        height: 30px;
+    }
+    .movie-container {
+        width: 20vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: rgba(0, 0, 0, 0.788);
+    }
+    a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+    .navbar {
+        display: none;
+    }
+    #div-header {
+        grid-area: header;
+        width: 100vw;
+        flex-direction: row-reverse;
+        /* height: 1vh;   */
+    }
+    /* #img45{width: 100vw;} */
+    .menu {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 1.1em;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    #img-ya-logo {
+        display: none;
+    }
+    #main {
+        display: block;
+        grid-area: main;
+    }
+    .city {
+        display: flex;
+        justify-content: center;
+        font-size: xx-large;
+        font-weight: bolder;
+        text-shadow: 2px 2px 2px black;
+         background-color: rgba(0, 0, 0, 0.434);
+    }
+    .music-name {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+    .img-main {
+        display: flex;
+        width: 25vw;
+        height: 20vh;
+        justify-content: center;
+    }
+}

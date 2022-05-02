@@ -1,0 +1,88 @@
+@media screen and (max-width: 600px) {
+    body {
+        /* background-image: url("/img/222.jpg");
+        background-size: cover;
+        background-repeat: no-repeat; */
+        background-color: rgb(255, 251, 0);
+    }
+    
+    a {
+        text-decoration: none;
+        color: rgba(255, 132, 17, 0);
+    }
+    .navbar {
+        display: none;
+    }
+    .div-c{
+        display: flex;
+        flex-direction: column;
+    }
+  
+    img{
+        width: 80vw;
+        height: 50vh;
+        border-radius: 50%;
+    }
+  
+
+  
+    .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        background-image: url("/img/pexels-wolfgang-2747446.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    a:hover {
+        color: white;
+    }
+    #navbar-m {
+        display: none;
+    }
+    .div-c{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .div-card1,img:hover{
+
+        width: 17vw;
+        height: 53vh;
+        transition: all 1s;
+    }
+    img{
+    width: 15vw;
+    height: 50vh;
+    border-radius: 50%;
+}
+    
+
+ 
+    svg:hover {
+        transition: all 0.3s;
+        width: 30px;
+        height: 30px;
+    }
+    .footer {
+        bottom: 0;
+        width: 100vw;
+    }
+}
+
+
+
+
+
