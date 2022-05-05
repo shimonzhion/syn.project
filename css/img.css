@@ -3,7 +3,7 @@
     /* height: 100vh; */
     /* #img45{width: 100vw;} */
     body {
-        background-image: url(/img/pexels-photo-1283219.jpeg);
+        background-image: url(./img/pexels-photo-1283219.jpeg);
         background-attachment: fixed;
     }
     a {

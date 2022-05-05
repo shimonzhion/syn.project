@@ -1,6 +1,6 @@
 @media screen and (max-width: 600px) {
     body {
-        background-image: url("/img/222.jpg");
+        background-image: url("./img/222.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -31,7 +31,7 @@
 
 @media screen and (min-width: 600px) {
     body {
-        background-image: url("/img/pexels-sebastian-ervi-1763075.jpg");
+        background-image: url("./img/pexels-sebastian-ervi-1763075.jpg");
         background-size: cover;
         background-repeat: no-repeat;
     }

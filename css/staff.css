@@ -35,7 +35,7 @@
 
 @media screen and (min-width: 600px) {
     body {
-        background-image: url("/img/pexels-wolfgang-2747446.jpg");
+        background-image: url("./img/pexels-wolfgang-2747446.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         
